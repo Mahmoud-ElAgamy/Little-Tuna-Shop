@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="The official website for the Tuna shop" />
+    <meta name="author" content="Agamy" />
+    <title>Little Tuna Shop</title>
+    <link
+      rel="icon"
+      href="imgs/shutterstock_117425023-1-scaled.webp"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="CSS/normalize.css" />
+    <link rel="stylesheet" href="CSS/all.min.css" />
+    <link rel="stylesheet" href="CSS/Style.CSS" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__h1">Little Tuna Shop</h1>
+      <nav class="header__nav">
+        <ul class="header__ul">
+          <li>
+            <a href="#menu">Menu</a>
+          </li>
+          <li>
+            <a href="Hours.HTML">Hours</a>
+          </li>
+          <li>
+            <a href="Contact.HTML">Contact</a>
+          </li>
+          <li>
+            <a href="About.HTML">About</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="hero">
+      <h2 class="hero__h2">Welcome!</h2>
+      <figure>
+        <img
+          src="imgs/Tuna 1.jpg"
+          alt="Tuna Food"
+          title="You would like Tuna"
+          width="1200"
+          height="628"
+        />
+        <figcaption class="offscreen">Tuna Food</figcaption>
+      </figure>
+    </section>
+    <main class="main">
+      <article id="menu" class="main__article menu">
+        <h2 class="menu__h2">Our Menu</h2>
+        <table class="menu__table">
+          <caption class="offscreen">
+            Our Tuna
+          </caption>
+          <thead>
+            <tr>
+              <th class="menu__header" scope="col">Tuna</th>
+              <th class="menu__header" scope="col">Quantity</th>
+              <th class="menu__header" scope="col">Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th class="menu__item menu__cc" scope="row" rowspan="3">
+                Shredded
+              </th>
+              <td class="menu__item">1</td>
+              <td class="menu__item">$1.50</td>
+            </tr>
+            <tr>
+              <td class="menu__item">2</td>
+              <td class="menu__item">$2.50</td>
+            </tr>
+            <tr>
+              <td class="menu__item">3</td>
+              <td class="menu__item">$3.25</td>
+            </tr>
+            <tr>
+              <th class="menu__item menu__s" scope="row" rowspan="3">Slice</th>
+              <td class="menu__item">1</td>
+              <td class="menu__item">$2.00</td>
+            </tr>
+            <tr>
+              <td class="menu__item">2</td>
+              <td class="menu__item">$3.50</td>
+            </tr>
+            <tr>
+              <td class="menu__item">3</td>
+              <td class="menu__item">$4.50</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td class="menu__item menu__cs" colspan="3">
+                Chips &amp; Salsa $2
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+        <p class="center">
+          <a href="#">Back To Top</a>
+        </p>
+      </article>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+      <p>
+        <span class="nowrap"
+          >Copyright <span id="current-year"></span> &copy;</span
+        >
+        <span class="nowrap">Little Tuna Shop</span>
+      </p>
+    </footer>
+  </body>
+</html>
